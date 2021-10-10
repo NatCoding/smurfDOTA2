@@ -1,6 +1,6 @@
 import requests
 import json
-r = requests.get("https://api.stratz.com/api/v1/player/179017926")
+r = requests.get("https://api.stratz.com/api/v1/player/{steam32 ID}")
 
 player = r.text
 #convert str dict to real dict
